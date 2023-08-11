@@ -1,0 +1,19 @@
+.rasef {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 50px;
+}
+
+.imagenPersonaNosotros{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #2196f3;
+}
+.parrafoAcercaNos{
+    text-align: center;
+}
+.h4SobreNosotros{
+    margin-top: 23vh;
+}

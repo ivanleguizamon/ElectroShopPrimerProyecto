@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/electroShop.png" type="image/x-png" />
+    <!--Estilos de Bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/registro.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <!-- Iconos footer-->
+    <script src="https://kit.fontawesome.com/efb392a1cd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Registro de Contacto</title>
+</head>
+
+<body>
+    <!--EMPIEZA NAV-BAR-->
+    <div>
+        <header class="header">
+            <a href="/pages/error404.html" target="_blank">
+                <img src="/assets/instagram.png" alt="" /></a>
+            <a href="/pages/error404.html" target="_blank">
+                <img src="/assets/facebook.png" alt="" /></a>
+        </header>
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars icono-hamb"></i>
+            </label>
+
+            <a href="/index.html" class="enlace">
+                <img src="../assets/electro-shoptransparent-png.png" alt="imagen-logo" class="logo" />
+            </a>
+            <ul>
+                <i class="fa fa-search"></i>
+                <li>
+                    <input class="input encontraLoQueBuscas" type="search" placeholder="Encontra lo que buscas" />
+                </li>
+
+                <li><a class="" href="../pages/sobrenosotros.html">Nosotros</a></li>
+                <li><a class="#" href="../pages/login.html">Login</a></li>
+                <li>
+                    <a class="#" href="/pages/registro.html">Registro</a>
+                </li>
+                <li>
+                    <a class="#" href="/pages/carrito.html">Carrito</a>
+                </li>
+                <li><a class="" href="/pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- CONTACTO -->
+    <div class="container contenedorRegistro">
+        <div class="row">
+            <!--aca va el logo-->
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 logoElectro">
+                <img src="../assets/electroShop2.png" alt="logo de Electroshop" class="img-contacto" />
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <h2>Regístrese</h2>
+                <form>
+
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre y apellido</label>
+                        <input type="text" class="form-control" id="nombre" aria-describedby="" maxlength="50"
+                            minlength="3" required placeholder="Nombre y apellido" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="domicilio" class="form-label">Domicilio</label>
+                        <input type="text" class="form-control" id="domicilio" aria-describedby="emailHelp"
+                            placeholder="Domicilio" maxlength="50" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="cp" class="form-label">Código postal</label>
+                        <input type="text" class="form-control" id="cp" aria-describedby="emailHelp"
+                            placeholder="Código postal" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="telefono" class="form-label">Teléfono</label>
+                        <input type="tel" class="form-control" id="telefono" placeholder="Teléfono"
+                            pattern="^(\+?54)?(9)?[1-9]\d{8}$" aria-describedby="Teléfono" maxlength="10" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="E-mail" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="usuario" class="form-label">Nombre de usuario</label>
+                        <input type="text" class="form-control" id="usuario" aria-describedby="emailHelp"
+                            placeholder="Nombre de usuario" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password" minlength="8" maxlength="50"
+                            placeholder="Contraseña" required>
+
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password2" class="form-label">Repita su contraseña</label>
+                        <input type="password" class="form-control" id="password2" placeholder="Repita su contraseña"
+                            required>
+                    </div>
+                    <div class="d-flex justify-content-center m-3">
+                        <button type="submit" class="btn btn-primary botonIniciarSesionLogin">Enviar</button>
+
+                    </div>
+                </form>
+            </div>
+
+            
+        </div>
+    </div>
+    </div>
+
+    <!-- EMPIEZA FOOTER -->
+    <footer class="piedepagina my-4">
+
+        <!-- un div padre q tien 3 div con la clas box -->
+        <div class="grupopadre1">
+
+
+            <!-- div hijo1 -->
+            <div class="boxx2">
+                <figure>
+                    <a href="/index.html" class="etiquetaAFooter">
+                        <img src="../assets/electro-shoptransparent-png.png" alt="logodelaempresa"
+                            class="imagenLogoHijo1">
+                    </a>
+                </figure>
+            </div>
+
+
+            <!-- div hijo 2 -->
+            <div class="boxx2">
+
+                <h2 class="claseh2">Sucursal</h2>
+
+                <p class="h5"> <span class="material-symbols-outlined">
+                        location_on
+                    </span> General Paz 576 - San Miguel de Tucuman - Tucuman</p>
+                <br>
+                <h2 class="claseh2">Compra telefonica</h2>
+                <p class="h5">
+                    <span class="material-symbols-outlined">
+                        shopping_cart
+                    </span> 0381 578-3030
+                </p>
+            </div>
+
+
+
+            <!-- div hijo 3 -->
+
+            <div class="boxx2">
+                ´<h2>Seguimos conectados</h2>
+                <div class="redsocialfinal">
+                    <a href="https://www.facebook.com/RollingCodeSchool/" target="_blank"
+                        class="fa-brands fa-facebook etiquetaAFooter"></a>
+                    <a href="https://www.instagram.com/rollingcodeschool/" target="_blank"
+                        class="fa-brands fa-instagram etiquetaAFooter"></a>
+                    <a href="../pages/error404.html" class="fa-brands fa-twitter etiquetaAFooter"></a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <section class="derechos">
+            <p>
+                © ElectroShop 2023 - Todos los derechos reservados
+            </p>
+        </section>
+
+
+    </footer>
+    <!--estas lineas son las conecciones a bootstarp  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

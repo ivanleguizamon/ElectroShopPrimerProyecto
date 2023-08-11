@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="shortcut icon"
+      href="/assets/electroShop.png"
+      type="image/x-png"/>
+    <title>ElectroShop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5d9df70330.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Iconos footer-->
+    <script src="https://kit.fontawesome.com/efb392a1cd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <!--EMPIEZA NAV-BAR-->
+    <div>
+        <header class="header">
+            <a href="/pages/error404.html" target="_blank">
+                <img src="/assets/instagram.png" alt="instagram" /></a>
+            <a href="/pages/error404.html" target="_blank">
+                <img src="/assets/facebook.png" alt="facebook" /></a>
+        </header>
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars icono-hamb"></i>
+            </label>
+
+            <a href="/index.html" class="enlace">
+                <img src="./assets/electro-shoptransparent-png.png" alt="imagen-logo" class="logo" />
+            </a>
+            <ul>
+                <i class="fa fa-search"></i>
+                <li>
+                    <input class="input encontraLoQueBuscas" type="search" placeholder="Encontra lo que buscas" />
+                </li>
+
+                <li><a class="" href="./pages/sobrenosotros.html">Nosotros</a></li>
+                <li><a class="#" href="./pages/login.html">Login</a></li>
+                <li>
+                    <a class="#" href="/pages/registro.html">Registro</a>
+                </li>
+                <li>
+                    <a class="#" href="/pages/carrito.html">Carrito</a>
+                </li>
+                <li><a class="" href="/pages/contacto.html" >Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="caja-video">
+        <video autoplay loop muted poster="/assets/davide-boscolo-gz9njd0zYbQ-unsplash.jpg">
+            <source src="/assets/video cortado para fondo.mp4" />
+        </video>
+    </div>
+
+
+    <section class="contenido">
+
+        <!--EMPIEZA CAROUSEL-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/imagenPublicidadCarousel.webp" class="d-block w-100 " alt="publicidad">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/imagenPublicidadCarousel2.webp" class="d-block w-100 " alt="publicidad">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/imagenPublicidadCarousel3.webp" class="d-block w-100 " alt="publicidad">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/imagenPublicidadCarouselCafe.webp" class="d-block w-100 " alt="publicidad">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!--EMPIEZA LISTA DE IMAGENES -->
+
+        <div class="container-fluid  my-4">
+            <div class="row  d-flex justify-content-evenly">
+                <div class="card  cardListaImagenes  " style="width: 18rem;">
+                    <a href="#celulares" class="linkear">
+                        <img src="../assets/fotoCelularLista3.png" class="card-img-top my-2 imgListaDeImagenes"
+                            alt="fotocelular">
+                        <div class="card-body">
+                            <h5 class="card-title d-flex justify-content-center tituloCardListaImagenes">Celulares</h5>
+                            <a href="#" class="btn d-flex justify-content-center botonListaDeImagenes">Ver mas</a>
+                        </div>
+
+                    </a>
+                </div>
+                <div class="card cardListaImagenes" style="width: 18rem;">
+                    <a href="#televisores" class="linkear">
+                        <img src="../assets/fotoTelevisorLista3.jpeg" class="card-img-top my-2" alt="fototv">
+                        <div class="card-body">
+                            <h5 class="card-title d-flex justify-content-center tituloCardListaImagenes">Televisores
+                            </h5>
+                            <a href="#" class="btn d-flex justify-content-center botonListaDeImagenes">Ver mas</a>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="card cardListaImagenes" style="width: 18rem;">
+                    <a href="#heladeras" class="linkear">
+                        <img src="../assets/fotoHeladeraLista2.jpeg" class="card-img-top my-2" alt="fotoheladera">
+                        <div class="card-body">
+                            <h5 class="card-title d-flex justify-content-center tituloCardListaImagenes">Heladeras</h5>
+                            <a href="#" class="btn d-flex justify-content-center botonListaDeImagenes">Ver mas</a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- titular celulares  -->
+
+        <div class="container contenedorIconoCelular" id="celulares">
+            <div class="d-flex justify-content-center gap-2">
+                <img src="../assets/iconos/phone-icon.png" alt="icono de celular" class="icon">
+                <h3 class="titular" class="text-info-emphasis">CELULARES</h3>
+            </div>
+        </div>
+
+        <!-- cards de celulares -->
+
+        <div class="column">
+            <div class="container">
+                <div class="row d-flex justify-content-evenly gap-3 mt-lg-5 ">
+                    <!-- card 1 -->
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/celulares/A13.webp" class="card-img-top mt-3"
+                            alt="Imagen de celular Samsung A13 color negro">
+                        <div class="card-body">
+                            <h5 class="card-title">Celular Samsung Galaxy A13</h5>
+                            <h6 class="precio-producto">$ 93.999</h6>
+                            <p class="card-text">Samsung Galaxy A13. <br> Almacenamiento interno: 128GB <br> Color:
+                                Negro
+                            </p>
+                            <p class="text-success-emphasis"><b>Hasta 6 cuotas sin interés</b></p>
+                            <a href="./pages/a13.html" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/celulares/A34-5G.webp" class="card-img-top mt-3"
+                            alt="Imagen de celular Samsung A34 5G">
+                        <div class="card-body">
+                            <h5 class="card-title">Celular Samsung Galaxy A34-5G</h5>
+                            <h6 class="precio-producto">$ 143.999</h6>
+                            <p class="card-text">Samsung Galaxy A34. <br> Almacenamiento interno: 128GB</p><br>
+                            <p class="text-success-emphasis"><b>10% OFF</b></p>
+                            <a href="./pages/a34.html" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/celulares/A53-5G.webp" class="card-img-top mt-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Celular Samsung Galaxy A53 5G</h5>
+                            <h6 class="precio-producto">$ 196.999</h6>
+                            <p class="card-text">Almacenamiento interno: 256GB <br> Color: Negro</p><br>
+                            <p class="text-success-emphasis"><b>Hasta 6 cuotas sin interés</b></p>
+                            <a href="/pages/a53.html" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div class="card" style="width: 18rem;" id="card4">
+                        <img src="../assets/celulares/ZTE-BLADE-A52.webp" class="card-img-top mt-3" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Celular Zte Blade A52 Gris Rva</h5>
+                            <h6 class="precio-producto">$ 39.499</h6>
+                            <p class="card-text">Memoria interna: 64GB <br> Cámara trasera principal: 13Mpx
+                                <br>Desbloqueo:
+                                Huella dactilar
+                            </p>
+                            <p class="text-success-emphasis"><b>28% OFF</b></p>
+                            <a href="/pages/a52.html" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KwXD9zkjWoU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- titular Televisores -->
+
+        <div class="container" id="televisores">
+            <div class="d-flex justify-content-center mt-5 gap-2">
+                <img src="../assets/iconos/tv-icon.png" alt="icono de televisor" class="icon">
+                <h3 class="titular" class="text-info-emphasis">TELEVISORES</h3>
+            </div>
+        </div>
+
+        <!-- cards de Televisores -->
+
+        <div class="container">
+            <div class="row d-flex justify-content-evenly gap-3 mt-lg-5">
+                <!-- card 1 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/Televisores/Televisor1.jpg" class="card-img-top mt-3"
+                        alt="Imagen de SMART LED TV SAMSUNG 75 PULGADAS 4K UHD">
+                    <div class="card-body">
+                        <h5 class="card-title">SMART LED TV SAMSUNG 75 PULGADAS 4K UHD</h5>
+                        <h6 class="precio-producto">$ 535.499</h6>
+                        <p class="card-text"> Tamaño: 96.03 x 167.67 <br> Color: Negro <br>
+                            Bluetooth: SI.</p>
+                        <p class="text-success-emphasis"><b>Hasta 6 cuotas sin interés</b></p>
+                        <a href="./pages/error404.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/Televisores/Televisor2.jpg" class="card-img-top mt-3"
+                        alt="Imagen de SMART LED TV SAMSUNG 70 PULGADAS 4K UHD" id="imgtelevisor2">
+                    <div class="card-body">
+                        <h5 class="card-title">SMART LED TV SAMSUNG 70 PULGADAS 4K UHD</h5>
+                        <h6 class="precio-producto">$ 361.249</h6>
+                        <p class="card-text">Tamaño: 99 x 156 <br> Color: Negro <br>
+                            Bluetooth: SI.</p>
+                        <p class="text-success-emphasis"><b>Hasta 6 cuotas sin interés</b></p>
+                        <a href="./pages/error404.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/Televisores/Televisor3.jpg" class="card-img-top mt-3"
+                        alt="Imagen de LED TV NOBLEX 24 PULGADAS HD">
+                    <div class="card-body">
+                        <h5 class="card-title">LED TV NOBLEX 24 PULGADAS HD</h5>
+                        <h6 class="precio-producto">$ 59.999</h6>
+                        <p class="card-text">Tamaño: 33.99 x 55.29 <br> Formato de pantalla: 16:09 <br>
+                            Bluetooth: NO.</p><br>
+                        <p class="text-success-emphasis"><b>Hasta 6 cuotas sin interés</b></p>
+                        <a href="./pages/error404.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card" style="width: 18rem;" id="card4">
+                    <img src="../assets/Televisores/Televisor4.jpg" class="card-img-top mt-3"
+                        alt="Imagen de SMART LED ANDROID TV HITACHI 32 PULGADAS HD">
+                    <div class="card-body">
+                        <h5 class="card-title">SMART LED ANDROID TV HITACHI 32 PULGADAS HD</h5>
+                        <h6 class="precio-producto">$ 66.499,05</h6>
+                        <p class="card-text">Tamaño: 42.5 x 72.4 <br> Formato de pantalla: 16:9 <br>Bluetooth: SI.</p>
+                        <p class="text-success-emphasis"><b>Ahorro: $23.499,95</b></p>
+                        <a href="./pages/error404.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Empieza titular de heladeras -->
+
+
+        <div class="container">
+            <div class="d-flex justify-content-center mt-5 gap-4">
+                <img src="../assets/iconos/fridge-icon.png" alt="icono de heladera" class="icon">
+                <h3 class="titular" class="text-info-emphasis">HELADERAS</h3>
+            </div>
+        </div>
+
+        <!-- cards de Heladeras -->
+
+        <div class="container" id="heladeras">
+            <div class="row d-flex justify-content-evenly gap-3 mt-lg-5">
+                <!-- card 1 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/Heladeras/Heladera1.png" class="card-img-top mt-3"
+                        alt="Imagen de HELADERA NO FROST SAMSUNG RT32K5070S8 BLANCO">
+                    <div class="card-body">
+                        <h5 class="card-title">HELADERA NO FROST SAMSUNG RT32K5070S8 BLANCO</h5>
+                        <h6 class="precio-producto">$ 264.499</h6>
+                        <p class="card-text"> Tamaño: 171.5 x 60 <br> Color: Blanco <br>
+                            Crisper especial multiuso: NO.</p>
+                        <p class="text-success-emphasis"><b>Hasta 6 cuotas sin interés</b></p>
+                        <a href="./pages/error404.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/Heladeras/Heladera2.jpg" class="card-img-top mt-3"
+                        alt="Imagen de HELADERA NO FROST WHIRLPOOL WRM56K2">
+                    <div class="card-body">
+                        <h5 class="card-title">HELADERA NO FROST WHIRLPOOL WRM56K2</h5>
+                        <h6 class="precio-producto">$ 637.299</h6>
+                        <p class="card-text">Tamaño: 184 x 70.1 <br> Color: Plata <br>
+                            Compartimiento extra frio: SI</p><br>
+                        <p class="text-success-emphasis"><b>Hasta 6 cuotas sin interés</b></p>
+                        <a href="./pages/error404.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="../assets/Heladeras/Heladera3.png" class="card-img-top mt-3"
+                        alt="Imagen de HELADERA CYCLE DEFROST GAFA HGF368AFB BLANCO">
+                    <div class="card-body">
+                        <h5 class="card-title">HELADERA CYCLE DEFROST GAFA HGF368AFB BLANCO</h5>
+                        <h6 class="precio-producto">$ 189.999</h6>
+                        <p class="card-text">Tamaño: 161.4 x 61.4 <br> Color: Blanco <br>
+                            Crisper para frutas: SI.</p>
+                        <p class="text-success-emphasis"><b>Ahorro: $22.800</b></p>
+                        <a href="./pages/error404.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card" style="width: 18rem;" id="card4">
+                    <img src="../assets/Heladeras/Heladera4.png" class="card-img-top mt-3"
+                        alt="Imagen de SHELADERA CICLICO STANDARD ELECTRIC 2F1800BDA BLANCO">
+                    <div class="card-body">
+                        <h5 class="card-title">HELADERA CICLICO STANDARD ELECTRIC 2F1800BDA BLANCO</h5>
+                        <h6 class="precio-producto">$ 199.999</h6>
+                        <p class="card-text">Tamaño: 187 x 63 <br> Color: Blanco <br> Crisper especial multiuso: SI.</p>
+                        <p class="text-success-emphasis"><b>Ahorro: $54.700</b></p>
+                        <a href="./pages/error404.html" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--COMIENZAN PUBLICIDADES-->
+
+        <!--PUBLICIDAD CLARO-->
+        <a href="./pages/error404.html" class="etiquetaPublicidad">
+            <div class="container publicidadPrincipal my-5">
+                <div class="column columnaClaro">
+                    <div>
+                        <h2> <img src="../assets/Claro-logo.png" alt="" class="logoClaro">
+                            <strong class="estiloPublicidad">Pasate a Claro</strong>
+                        </h2>
+                        <p class="parrafoPublicidad">Te damos desde 30% off x 12 meses y otros beneficios</p>
+                        <p class="parrafoPublicidad">¡Mantené tu número! Dejanos tus datos y te llamamos dentro de las
+                            dos
+                            horas.</p>
+                    </div>
+                    <div>
+                        <div class="back">
+                            <button class="btn botonCambiatePublicidad" type="button"><strong
+                                    class="cambiateEstilo">CAMBIATE</strong></button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </a>
+
+
+    </section>
+
+    <!-- EMPIEZA FOOTER -->
+    <footer class="piedepagina">
+
+        <!-- un div padre q tien 3 div con la clas box -->
+        <div class="grupopadre1">
+
+
+            <!-- div hijo1 -->
+            <div class="boxx2">
+                <figure>
+                    <a href="./index.html" class="etiquetaAFooter">
+                        <!--Rocio agregue la clase esa x la misma razon en todas las <a-->
+                        <img src="assets/electro-shoptransparent-png.png" alt="logodelaempresa" class="imagenLogoHijo1">
+                    </a>
+                </figure>
+            </div>
+
+
+            <!-- div hijo 2 -->
+            <div class="boxx2">
+
+                <h2 class="claseh2">Sucursal</h2>
+
+                <p class="h5"> <span class="material-symbols-outlined">
+                        location_on
+                    </span> General Paz 576 - San Miguel de Tucuman - Tucuman</p>
+                    <br>
+                    <h2 class="claseh2">Compra telefonica</h2>
+                    <p class="h5">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>  0381 578-3030
+                    </p>
+            </div>
+
+
+
+            <!-- div hijo 3 -->
+
+            <div class="boxx2">
+                ´<h2>Seguimos conectados</h2>
+                <div class="redsocialfinal">
+                    <a href="https://www.facebook.com/RollingCodeSchool/" target="_blank"
+                        class="fa-brands fa-facebook etiquetaAFooter"></a>
+                    <a href="https://www.instagram.com/rollingcodeschool/" target="_blank"
+                        class="fa-brands fa-instagram etiquetaAFooter"></a>
+                    <a href="./pages/error404.html" class="fa-brands fa-twitter etiquetaAFooter"></a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <section class="derechos">
+            <p>
+                © ElectroShop 2023 - Todos los derechos reservados
+            </p>
+        </section>
+
+
+
+
+
+
+
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

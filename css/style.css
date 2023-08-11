@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+/*css nav ivan*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenido {
+  padding-top: 185px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.caja-video video {
+  object-fit: cover;
+  position: absolute;
+
+  z-index: -1;
+  height: 155vh;
+
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  height: 30px;
+  background-color: #2196f3;
+  z-index: 100;
+}
+
+header img {
+  height: 25px;
+}
+
+nav {
+  border-bottom: 2px solid #2196f3;
+  position: fixed;
+  top: 30px;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.705);
+  width: 100%;
+  height: 120px;
+}
+
+.enlace {
+  position: absolute;
+  padding: 0;
+}
+
+.logo {
+  height: 120px;
+}
+
+.input {
+  border-radius: 35px;
+  height: 35px;
+  width: 400px;
+  font-size: larger;
+  padding: 7px 13px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 120px;
+  margin: 0 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color: #2196f3;
+  color: white;
+  font-size: larger;
+  padding: 7px 13px;
+  border-radius: 35px;
+}
+
+li a:hover {
+  background: #0f83e2;
+  transition: 0.5s;
+}
+
+.checkbtn {
+  background-color: #2196f3;
+  padding: 7px 13px;
+  border-radius: 35px;
+
+  color: rgb(255, 255, 255);
+
+  line-height: 120px;
+  margin-right: 40px;
+  cursor: pointer;
+  float: right;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+
+.fondo {
+  width: 100vw;
+}
+.encontraLoQueBuscas{
+  border: solid 1px black;
+}
+
+/*css principal agus*/
+.carousel-item {
+  height: 269px;
+  object-fit: cover;
+  margin-top: 35px;
+}
+
+.linkear {
+  text-decoration: none;
+}
+
+.cardListaImagenes {
+  border: solid 1px none !important;
+  border-radius: 40px !important;
+}
+
+.cardListaImagenes:hover {
+  border: solid 3px #bef1f1 !important;
+
+}
+
+.tituloCardListaImagenes {
+  color: black;
+}
+
+.botonListaDeImagenes {
+  color: #126493 !important;
+}
+
+.publicidadPrincipal {
+  background-color: rgb(236, 233, 233);
+}
+
+.estiloPublicidad {
+  color: rgb(197, 2, 2);
+}
+
+.botonCambiatePublicidad {
+  background-color: rgb(197, 2, 2) !important;
+}
+
+.cambiateEstilo {
+  color: white;
+
+}
+
+.logoClaro {
+  width: 150px;
+  height: 150px;
+}
+
+.columnaClaro {
+  display: flex;
+  align-items: center !important;
+  justify-content: space-around;
+}
+
+.etiquetaPublicidad {
+  text-decoration: none;
+}
+
+.parrafoPublicidad {
+  color: black;
+}
+
+/*css principal maxi*/
+.icon {
+  width: 32px;
+  height: 32px;
+}
+
+.titular {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 26px;
+  letter-spacing: 2px;
+  word-spacing: -4px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.contenedorIconoCelular {
+  margin-top: 50px;
+  /*maxi esta clase agregue en titular celular solo para que baje un poco con respecto a las cards de arriba*/
+}
+
+/*css footer*/
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.piedepagina {
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+
+
+}
+
+.piedepagina .grupopadre1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+
+}
+
+.piedepaginar .grupopadre1 .boxx2 figure {
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.piedepagina .grupopadre1 .boxx2 figure .imagenLogoHijo1 {
+  /*rocio agregue la clase imagenLogoHijo1 xq estaba la clase img y choca con los demas codigos*/
+  width: 250px;
+  
+
+
+}
+
+.piedepagina .grupopadre1 .boxx2 .claseh2 { /*cambie h2 por claseh2 x la misma razon*/
+  color: #2196f3;
+  margin-bottom: 25px;
+  font-size: 20px;
+
+}
+
+
+.piedepagina .grupopadre1 .boxx2  {
+  color: black;
+  margin-bottom: 20px;
+
+
+}
+
+.piedepagina .grupopadre1 .redsocialfinal .etiquetaAFooter{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: rgb(255, 255, 255);
+
+  margin-top: 10px;
+  background-color: #2196f3;
+  text-align: center;
+  transition: all 300ms ease;
+
+
+}
+
+.derechos {
+  display: flex;
+  justify-content: center;
+}
+
+
+.piedepagina .grupopadre1 .redsocialfinal .etiquetaAFooter:hover {
+  color: rgb(0, 0, 0);
+}
+
+/*media agus*/
+
+@media (min-width: 672px) and (max-width: 1007px) {
+  .carousel-item {
+    height: 179px;
+  }
+
+  .cardListaImagenes {
+    height: 45px;
+    width: 32px;
+  }
+
+}
+
+@media (max-width: 671px) {
+  .carousel-item {
+    height: 130px;
+  }
+
+  .cardListaImagenes {
+    height: 550px !important;
+    width: 450px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .publicidadPrincipal {
+    display: none;
+  }
+
+}
+
+/*media ivan*/
+@media (max-width: 1030px) {
+  .enlace {
+    padding-left: 20px;
+  }
+
+  nav ul li a {
+    font-size: medium;
+  }
+}
+
+.input {
+  width: 300px;
+  font-size: small;
+}
+
+@media (max-width: 970px) {
+  .enlace {
+    padding-left: 20px;
+  }
+
+  nav ul li a {
+    font-size: medium;
+  }
+
+  .input {
+    width: 250px;
+    font-size: small;
+  }
+}
+
+@media (max-width: 922px) {
+  .input {
+    width: 190px;
+    font-size: small;
+  }
+}
+
+@media (max-width: 858px) {
+  .video-fondo {
+    display: none;
+  }
+
+  .checkbtn {
+    margin: 35px;
+
+    display: block;
+    background-color: #2196f3;
+    padding: 10px;
+    border-radius: 35px;
+
+    color: rgb(255, 255, 255);
+
+    line-height: 35px;
+    margin-right: 40px;
+    cursor: pointer;
+    float: right;
+  }
+
+  ul {
+    font-size: x-large;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #253af8be;
+    top: 165px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: large;
+  }
+
+  li a:hover {
+    background: rgba(255, 255, 255, 0.76);
+    color: rgb(0, 0, 0);
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+}
+ /*media rocio*/
+@media screen and (max-width: 800px) {
+
+  .piedepagina .grupopadre1 {
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 0px;
+  }
+}
+/*rocio se hace un scroll por el mapa */
+/*contacto ivan */
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.imgContacto{
+  margin: 3vh;
+  width: 42vw;
+  height: 75vh;
+  margin-right: 9vw;
+
+}
+
+.iniciarContacto{
+  margin: 5vh;
+  display: flex;
+  justify-content: center;
+}
+.botonIniciarSesionContacto{
+  background-color:rgba(226,242,241,255);
+  color: black;
+  border: none;
+
+}
+.botonIniciarSesionContacto:hover{
+  background-color: #c8e6e5;
+  color: black;
+  border: 1px solid rgba(77,183,212,255);
+  
+
+}
+.olvidasteYNoTienesContacto{
+  text-decoration: none;
+}
+.olvidasteYNoTienesContacto:hover{
+  color: #1a6990;
+  
+}
+.contenedorContacto{
+  margin-top: 22vh;
+}
+@media (max-width: 1199.98px) {
+  .imgContacto{
+      width: 35vw;
+      height: 52vh;
+  }
+}
+@media (max-width: 991.98px){
+  
+  .imgContacto{
+      width: 35vw;
+      height: 42vh;
+  }
+  
+  .iniciarContacto{
+      width: 26vw;
+  }
+  .parrafoDeSeparacionContacto{
+      display: none; 
+  }
+
+}
+@media (max-width: 772.98px){
+  .imgContacto{
+      display: none;
+  }
+  .iniciarContacto{
+      width: 45vw;
+  }
+  .formularioCompletoContacto{
+      display: flex;
+      flex-direction: column;
+  }
+  .imgContacto2{
+      display: none;
+  }
+}
+

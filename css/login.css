@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.imgLogin{
+    margin: 3vh;
+    width: 42vw;
+    height: 75vh;
+    margin-right: 9vw;
+
+}
+.botonLogin{
+  padding-right: 6vw;
+  padding-left: 6vw;
+    background-color:rgba(226,242,241,255);
+}
+.botonLogin:hover{
+    background-color: #c8e6e5;
+    border: 1px solid rgba(77,183,212,255);
+
+}
+.iniciarLogin{
+    margin: 5vh;
+    display: flex;
+    justify-content: center;
+}
+.botonIniciarSesionLogin{
+    background-color:rgba(226,242,241,255);
+    color: black;
+    border: none;
+
+}
+.botonIniciarSesionLogin:hover{
+    background-color: #c8e6e5;
+    color: black;
+    border: 1px solid rgba(77,183,212,255);
+    
+
+}
+.olvidasteYNoTienesLogin{
+    text-decoration: none;
+}
+.olvidasteYNoTienesLogin:hover{
+    color: #1a6990;
+    
+}
+.contenedorLogin{
+    margin-top: 22vh;
+}
+@media (max-width: 1199.98px) {
+    .imgLogin{
+        width: 35vw;
+        height: 52vh;
+    }
+}
+@media (max-width: 991.98px){
+    
+    .imgLogin{
+        width: 35vw;
+        height: 42vh;
+    }
+    
+    .iniciarLogin{
+        width: 26vw;
+    }
+    .parrafoDeSeparacionLogin{
+        display: none; 
+    }
+
+}
+@media (max-width: 772.98px){
+    .imgLogin{
+        display: none;
+    }
+    .iniciarLogin{
+        width: 45vw;
+    }
+    .formularioCompletoLogin{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgLogin2{
+        display: none;
+    }
+}
+

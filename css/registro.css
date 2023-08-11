@@ -1,0 +1,14 @@
+.logoElectro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedorRegistro{
+    margin-top: 30vh;
+  }
+  @media only screen and (max-width: 600px) {
+    .logoElectro {
+     
+      display: none;
+    }
+  }

@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.imgContacto{
+    margin: 3vh;
+    width: 42vw;
+    height: 75vh;
+    margin-right: 9vw;
+
+}
+.botonContacto{
+  padding-right: 6vw;
+  padding-left: 6vw;
+    background-color:rgba(226,242,241,255);
+}
+.botonContacto:hover{
+    background-color: #c8e6e5;
+    border: 1px solid rgba(77,183,212,255);
+
+}
+.iniciarContacto{
+    margin: 5vh;
+    display: flex;
+    justify-content: center;
+}
+.botonIniciarSesionContacto{
+    background-color:rgba(226,242,241,255);
+    color: black;
+    border: none;
+
+}
+.botonIniciarSesionContacto:hover{
+    background-color: #c8e6e5;
+    color: black;
+    border: 1px solid rgba(77,183,212,255);
+    
+
+}
+.olvidasteYNoTienesContacto{
+    text-decoration: none;
+}
+.olvidasteYNoTienesContacto:hover{
+    color: #1a6990;
+    
+}
+.contenedorContacto{
+    margin-top: 22vh;
+}
+@media (max-width: 1199.98px) {
+    .imgContacto{
+        width: 35vw;
+        height: 52vh;
+    }
+}
+@media (max-width: 991.98px){
+    
+    .imgContacto{
+        width: 35vw;
+        height: 42vh;
+    }
+    
+    .iniciarContacto{
+        width: 26vw;
+    }
+    .parrafoDeSeparacionContacto{
+        display: none; 
+    }
+
+}
+@media (max-width: 772.98px){
+    .imgContacto{
+        display: none;
+    }
+    .iniciarContacto{
+        width: 45vw;
+    }
+    .formularioCompletoContacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgContacto2{
+        display: none;
+    }
+}
+
